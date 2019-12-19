@@ -2,8 +2,17 @@ class calculation
 {
   public static void main(String[] arg)
   {
-   int a=5,b=10,c,d;
-
+   int a=-5,b=10,c,d;
+ 
+   if(a<0)
+   {
+     a=a-(2*a);
+   }
+   if(b<0)
+   {
+     b=b-(2*b);
+   }
+ 
    c=addition(a,b);
    System.out.println(" Addition of two numbers is : "+c);
   
